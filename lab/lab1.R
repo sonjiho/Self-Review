@@ -13,7 +13,7 @@ v1; v2; max_v; min_v; avg_v; sum_v; v3
 v4 <- seq(1, 10, 2)
 v5 <- rep(1, 5)
 v6 <- rep(1:3, 3)
-v7 <- rep(1:4, each=2) ☆
+v7 <- rep(1:4, each=2) #☆
 v4; v5; v6; v7
 
 
@@ -58,3 +58,7 @@ v9 <- sample(1:30, 10, replace = T)
 v10 <- v9
 names(v10) <- letters[26:17]
 v9; v10
+
+
+#난생처음 R코딩 & 데이터 분석 P107
+#paste 함수 : 여러 개의 문자열이나 숫자값을 결합하여 하나의 문자열로 만드는 기능.
